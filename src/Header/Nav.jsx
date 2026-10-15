@@ -1,11 +1,16 @@
-import {NavLink} from "react-router";
+import { NavLink } from "react-router";
 
-export default function Nav(){
-    return(
-        <nav>
-            <NavLink to="/shop">Shop</NavLink>
-            <NavLink to="/">About</NavLink>
-        </nav>
-    )
+export default function Nav() {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <NavLink to="/shop">Shop</NavLink>
+        </li>
+        <li>
+          <NavLink to="/">About</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 }
-
