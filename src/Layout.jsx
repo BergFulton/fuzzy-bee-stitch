@@ -1,13 +1,14 @@
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
-import About from './Main/About'
+import { Outlet } from "react-router";
+
 export default function Layout (){
     return (  
     <>
         <Header/>
   <main>
-    {/* <div>JUST RENDER</div> */}
-    <About/>
+  
+<Outlet/>
   </main>
   <Footer/>
     </>

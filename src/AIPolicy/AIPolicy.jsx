@@ -1,4 +1,4 @@
-function AIStatement(){
+function AIPolicy(){
     return(<>
     <section>
         <article>
@@ -14,4 +14,4 @@ function AIStatement(){
     </>)
 }
 
-export default AIStatement;
+export default AIPolicy;
